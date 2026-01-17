@@ -1,36 +1,99 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Apollo</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Apollo</title>
 
-<style>
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    background: black;
-  }
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
 
-  body {
-    width: 100vw;
-    height: 100vh;
-    overflow: hidden;
-  }
+    body {
+      background: black;
+      color: white;
+    }
 
-  img {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-    display: block;
-  }
-</style>
+    header {
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      display: flex;
+      justify-content: center;
+      margin: 20px 0;
+    }
+
+    .logo img {
+      width: 180px;
+    }
+
+    .menu {
+      padding: 20px;
+    }
+
+    .item {
+      border: 1px solid #444;
+      padding: 18px;
+      margin-bottom: 15px;
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      color: #aaa;
+    }
+
+    .item img {
+      width: 40px;
+    }
+  </style>
 </head>
 
 <body>
 
-<img src="apoll0.ap.codigo.1.privado.png" alt="Apollo">
+  <header>
+    <h3>INÍCIO</h3>
+    <span>⋮</span>
+  </header>
+
+  <div class="logo">
+    <img src="logo.png" alt="Apollo">
+  </div>
+
+  <div class="menu">
+
+    <div class="item">
+      <img src="fitness.png">
+      <span>Fitness Calculator</span>
+    </div>
+
+    <div class="item">
+      <img src="timer.png">
+      <span>Training Timer</span>
+    </div>
+
+    <div class="item">
+      <img src="shopping.png">
+      <span>Shopping List</span>
+    </div>
+
+    <div class="item">
+      <img src="notes.png">
+      <span>Quick Notes</span>
+    </div>
+
+    <div class="item">
+      <img src="workout.png">
+      <span>My Workout</span>
+    </div>
+
+  </div>
 
 </body>
 </html>
